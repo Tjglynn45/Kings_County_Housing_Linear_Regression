@@ -1,14 +1,22 @@
-PROJECT 2
+# KingCountyPredicitions
+---
 
-#Overview
+
+# Overview
+
 This project, we took a look at the King County Housing Data. King County is the greater Seattle area, to build a model that predicts house prices for homes in the area.
 So I will build a linear regression model to predict the housing price to help accurately price homes they represent.
 An overview of the average home in the dataset... 3 bedrooms, 2 bathrooms, $540,000, ⅓ acre yard, 3 condition (Average), 1 floor, Built in 1971
 
-#Data
+---
+
+# Data
+
 King County housing dataset contained data from May 2014-2015.
 
-#EDA
+---
+
+# EDA
 Initial columns provided in the data set include:
 
 
@@ -34,7 +42,10 @@ long - Longitude coordinate
 sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
 sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors 
 
-#Conclusion
+---
+
+
+# Conclusion
 I repeated multiple linear regression models to get the best possible model for predictions.Using
 KBest and RFECV.
 
