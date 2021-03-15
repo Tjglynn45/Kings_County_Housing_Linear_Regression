@@ -12,7 +12,7 @@ An overview of the average home in the dataset... 3 bedrooms, 2 bathrooms, $540,
 
 # Data
 
-King County housing dataset contained data from May 2014-2015.
+King County housing dataset contained data from May 2014-2015. I am looking to identify and predict housing sales prices based on features with a RMSE of less than $200,000.
 
 ---
 
@@ -41,6 +41,10 @@ Initial columns provided in the data set include:
 - long - Longitude coordinate
 - sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
 - sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors 
+
+I examined the correlation between price and the other variables for multicollinearity. 
+![image](https://user-images.githubusercontent.com/76975163/111123827-2c28ac00-8546-11eb-9b40-6cc1983685d2.png)
+
 
 ---
 
