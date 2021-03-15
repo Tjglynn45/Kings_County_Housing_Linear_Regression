@@ -45,13 +45,31 @@ Initial columns provided in the data set include:
 I examined the correlation between price and the other variables for multicollinearity. 
 ![image](https://user-images.githubusercontent.com/76975163/111123827-2c28ac00-8546-11eb-9b40-6cc1983685d2.png)
 
+After handling the extra variables I looked for outliers that may be in the data, which included a bedrooms with a large amount of bedrooms.
+![image](https://user-images.githubusercontent.com/76975163/111124089-76119200-8546-11eb-80b8-40ed2924d968.png)
+
+I continued my exploratory research by looking tot see if there was a relationship between the amount of houses sold by yr built in 25 year increments. 
+![image](https://user-images.githubusercontent.com/76975163/111124394-db658300-8546-11eb-8a21-9daadbb8b01e.png)
+
+Through my exploratory data, I was able to start creating a model to that would best predict the price.
+I ran a test train split and tried two different feature selections in the KBest and RFECV for the best possible model.
+
+The RFECV gives a underfitted model.
+
+<img width="761" alt="Screen Shot 2021-03-15 at 4 33 02 AM" src="https://user-images.githubusercontent.com/76975163/111125028-88d89680-8547-11eb-8de8-5655863eb86d.png">
+
+<img width="743" alt="Screen Shot 2021-03-15 at 4 36 15 AM" src="https://user-images.githubusercontent.com/76975163/111125452-fd133a00-8547-11eb-8ca7-2046987355d4.png">
+<img width="478" alt="Screen Shot 2021-03-15 at 4 36 52 AM" src="https://user-images.githubusercontent.com/76975163/111125530-12886400-8548-11eb-9d68-c690c4f94b9c.png">
+
 
 ---
 
 
 # Conclusion
-I repeated multiple linear regression models to get the best possible model for predictions.Using
-KBest and RFECV.
+I repeated multiple linear regression models to get the best possible model for prediction using
+KBest and RFECV. The RFECV model gives me a RMSE under 194,521 and the R Square value of 91
+
+RFECV gives me a 
 
 My github folder includes the CSVs for the Kings County Housing Data, Kings County Holdout Data.
 
