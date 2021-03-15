@@ -20,27 +20,27 @@ King County housing dataset contained data from May 2014-2015.
 Initial columns provided in the data set include:
 
 
-id - unique ID for a house
-date - Date day house was sold
-price - Price is prediction target
-bedrooms - Number of bedrooms
-bathrooms - Number of bathrooms
-sqft_living - square footage of the home
-sqft_lot - square footage of the lot
-floors - Total floors (levels) in house
-waterfront - Whether house has a view to a waterfront
-view - view rating of house
-condition - How good the condition is (overall)
-grade - overall grade given to the housing unit, based on King County grading system
-sqft_above - square footage of house (apart from basement)
-sqft_basement - square footage of the basement
-yr_built - Year when house was built
-yr_renovated - Year when house was renovated
-zipcode - zip code in which house is located
-lat - Latitude coordinate
-long - Longitude coordinate
-sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
-sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors 
+-id - unique ID for a house
+-date - Date day house was sold
+-price - Price is prediction target
+-bedrooms - Number of bedrooms
+-bathrooms - Number of bathrooms
+-sqft_living - square footage of the home
+-sqft_lot - square footage of the lot
+-floors - Total floors (levels) in house
+-waterfront - Whether house has a view to a waterfront
+-view - view rating of house
+-condition - How good the condition is (overall)
+-grade - overall grade given to the housing unit, based on King County grading system
+-sqft_above - square footage of house (apart from basement)
+-sqft_basement - square footage of the basement
+-yr_built - Year when house was built
+-yr_renovated - Year when house was renovated
+-zipcode - zip code in which house is located
+-lat - Latitude coordinate
+-long - Longitude coordinate
+-sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors
+-sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors 
 
 ---
 
