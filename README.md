@@ -66,8 +66,8 @@ The RFECV gives a underfitted model.
 
 
 # Conclusion
-I repeated multiple linear regression models to get the best possible model for prediction using
-KBest and RFECV. The RFECV model gives me a RMSE under 194,521 and the R Square value of 91. I would look forward to trying to get an even lower RMSE model with a more accurate prediction. 
+I repeated multiple linear regression models to get the best possible model for prediction as well as used the
+KBest and RFECV feature. The original model gives me a RMSEof 156,729. I would look forward to trying to get an even lower RMSE model with a more accurate prediction. 
 
 
 My github folder includes the CSVs for the Kings County Housing Data, Kings County Holdout Data.
